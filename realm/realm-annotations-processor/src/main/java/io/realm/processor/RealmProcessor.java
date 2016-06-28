@@ -114,8 +114,8 @@ public class RealmProcessor extends AbstractProcessor {
         if (hasProcessedModules) {
             return true;
         }
-        RealmVersionChecker updateChecker = RealmVersionChecker.getInstance(processingEnv);
-        updateChecker.executeRealmVersionUpdate();
+//        RealmVersionChecker updateChecker = RealmVersionChecker.getInstance(processingEnv);
+//        updateChecker.executeRealmVersionUpdate();
 
         Utils.initialize(processingEnv);
 
